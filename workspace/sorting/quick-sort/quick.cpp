@@ -2,7 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 
-void quick_sort(int arr[], int start, int end, int& comparisions);
+void randomised_quick_sort(int arr[], int start, int end, int& comparisions);
+int randomised_partition(int arr[], int start, int end, int& comparisions);
 int partition(int arr[], int start, int end, int& comparisions);
 
 int main()
@@ -20,7 +21,7 @@ int main()
         std::cin >> arr[i];
 
     int comparisions = 0;
-    quick_sort(arr, 0, length - 1, comparisions);
+    randomised_quick_sort(arr, 0, length - 1, comparisions);
 
     std::cout << "Number of comparisions: " << comparisions << "\n";
     std::cout << "Sorted Array: ";
@@ -31,23 +32,28 @@ int main()
     return 0;
 }
 
-void quick_sort(int arr[], int start, int end, int& comparisions)
+void randomised_quick_sort(int arr[], int start, int end, int& comparisions)
 {
     if (start >= end)
         return;
 
-    int pivot_position = partition(arr, start, end, comparisions);
-    quick_sort(arr, start, pivot_position - 1, comparisions);
-    quick_sort(arr, pivot_position + 1, end, comparisions);
+    int pivot_position = randomised_partition(arr, start, end, comparisions);
+    randomised_quick_sort(arr, start, pivot_position - 1, comparisions);
+    randomised_quick_sort(arr, pivot_position + 1, end, comparisions);
 }
 
-int partition(int arr[], int start, int end, int& comparisions)
+int randomised_partition(int arr[], int start, int end, int& comparisions)
 {
     srand(time(NULL));
 
     int random_element = (rand() % (end - start)) + start;
     std::swap(arr[random_element], arr[end]);
 
+    return partition(arr, start, end, comparisions);
+}
+
+int partition(int arr[], int start, int end, int& comparisions)
+{
     int pivot = arr[end];
     int i = start - 1;
     for (int j = start; j < end; j++)
