@@ -1,0 +1,247 @@
+Enter maximum number of jobs = 3
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 1
+Job Number: 1
+Priority: 3
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 1
+Job Number: 2
+Priority: 1
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 1
+Job Number: 3
+Priority: 2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 6
+Job Number              Priority
+1                       3
+2                       1
+3                       2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 3
+Job Number: 2
+Priority: 5
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 6
+Job Number              Priority
+2                       5
+1                       3
+3                       2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 4
+Job Number: 1
+Priority: 1
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 6
+Job Number              Priority
+2                       5
+1                       1
+3                       2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 5
+Max Priority Job Extract, job number = 2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 6
+Job Number              Priority
+3                       2
+1                       1
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 1
+Job Number: 4
+Priority: 4
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 6
+Job Number              Priority
+4                       4
+1                       1
+3                       2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 2
+Job Number: 1
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 6
+Job Number              Priority
+4                       4
+3                       2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 2
+Job Number: 1
+Job not found
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 6
+Job Number              Priority
+4                       4
+3                       2
+
+
+Job Scheduling with Max Priority Queue
+Choose an option:
+1. Insert a new Job
+2. Delete a job
+3. Increase priority
+4. Decrease priority
+5. Extract job with highest priority
+6. Print jobs
+7. Exit
+Choice: 7
+Exiting...⏎                                                                                         
