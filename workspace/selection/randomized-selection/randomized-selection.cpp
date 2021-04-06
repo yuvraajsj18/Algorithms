@@ -31,26 +31,8 @@ int main()
         return -1;
     }
 
-    int element = randomized_select(arr, 0, size, i);
+    int element = randomized_select(arr, 0, size - 1, i);
     std::cout << "ith order statistic = " << element << "\n";
-
-    // Problem
-    for (int i = 0; i < 5; i++)
-    {
-        int arr1[] = {5, 4, 3, 2, 1};
-        int element = randomized_select(arr1, 0, 5, 3);
-        std::cout << element << std::boolalpha << (element == 3) << "\n";
-    }
-    
-    // Different output of this two loops
-
-    for (int i = 0; i < 5; i++)
-    {
-        int *arr1 = new int[5]{5, 4, 3, 2, 1};
-        int element = randomized_select(arr1, 0, 5, 3);
-        std::cout << element << std::boolalpha << (element == 3) << "\n";
-    }
-    //
 
     delete[] arr;
     return 0;
@@ -62,10 +44,11 @@ int randomized_select(int arr[], int start, int end, int i)
         return arr[start];
 
     int pivot_position = randomized_partition(arr, start, end);
+    // int k = pivot_position - start + 1;
 
-    if (i == pivot_position)
+    if (i - 1 == pivot_position)
         return arr[pivot_position];
-    else if (i < pivot_position)
+    else if (i - 1 < pivot_position)
         return randomized_select(arr, start, pivot_position - 1, i);
     else 
         return randomized_select(arr, pivot_position + 1, end, i);
